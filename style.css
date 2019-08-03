@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    color: antiquewhite;
+    font-weight: 200;
+}
+
+body, html {
+    background-image: url("https://images.unsplash.com/photo-1484788984921-03950022c9ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1404&q=80");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+#box {
+    width: 30%;
+    /* padding: 250px 700px; */
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 偽元素 */
+.type:after {
+    content: "";
+    border-right: 1px solid antiquewhite;
+    animation: 1s infinite shine;
+}
+
+@keyframes shine {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -5,7 +5,7 @@ var classname = ".type";                            // 類別名稱
 
 function type() {
     var t = document.querySelector(classname);      // 搜尋元素
-    var letter = texts[index].slice(0, count++);    // 切割文字(開始位置，切割數量)
+    var letter = texts[index].slice(0, 1);    // 切割文字(開始位置，切割數量)
     t.innerHTML = letter;                           // 插入 HTML = 文字
 }
 

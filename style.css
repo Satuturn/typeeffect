@@ -24,7 +24,7 @@ body, html {
     transform: translateX(-50%);
 }
 
-/* 偽元素 */
+/* 偽元素 - 後面 */
 .type:after {
     content: "";
     border-right: 1px solid antiquewhite;
